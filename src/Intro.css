@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#divContainer {
+    background-color: rgb(24, 24, 50);
+    width: 100vw;
+    padding-top: 90px;
+    height: 85vh;
+}
+
+
+
+#intro {
+    height: 500px;
+    width: 760px;
+    margin-top: 65px;
+}
+
+#picture {
+    background-color: brown;
+    height: 500px;
+    width: 500px;
+    margin-top: 60px;
+    background-image: url("./Images/girl.png");
+    background-size: cover;
+    margin-left: 20px;
+    border-radius: 250px;
+    box-shadow: 10px 10px 5px rgb(138, 67, 218);
+
+}
+
+#picture:hover {
+    transform: rotateX(15deg);
+}
+
+.name {
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+#j {
+    color: rgb(23, 87, 248);
+    font-size: 28px;
+}
+
+#profession {
+    font-size: 30px;
+    color: rgb(181, 189, 189);
+}
+
+#detailintro {
+    color: rgba(240, 255, 255, 0.63);
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+
+#resume {
+    height: 47px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 1px solid rgb(122, 125, 158);
+    font-weight: bolder;
+
+}
+
+#CVlink {
+    text-decoration: none;
+    color: beige;
+}
+
+#spId {
+    background-color: burlywood;
+}

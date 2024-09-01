@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#mainDiv {
+  background-color: rgb(24, 24, 50);
+}
+
+#divContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#navbar {
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(199, 216, 211);
+}
+
+#nameid {
+  margin-top: 26px;
+  font-size: 30px;
+  margin-left: 19px;
+  color: rgb(124, 45, 199);
+}
+
+#gihubid {
+
+  margin-top: 26px;
+  margin-right: 38px;
+  border: 4px solid rgb(124, 45, 199);
+  border-radius: 20px;
+  width: 172px;
+  height: 27px;
+  text-align: center;
+  padding-top: 2px;
+
+}
+
+#git {
+  color: rgb(124, 45, 199);
+  text-decoration: none;
+}
+
+#two {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  font-size: 22px;
+}
