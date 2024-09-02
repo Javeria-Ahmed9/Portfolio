@@ -13,7 +13,7 @@ export function Education() {
         </h2>
       </div>
       <div id="javId">
-        <div id="edu1" style={{ alignSelf: "flex-start" }}>
+        <div id="edu1">
           <div id="mDiv1">
             <img src={uocImg} />
           </div>
@@ -28,7 +28,7 @@ export function Education() {
             </div>
           </div>
         </div>
-        <div id="edu2" style={{ alignSelf: "flex-end" }}>
+        <div id="edu2">
           <div id="mDiv1">
             <img src={rcsImg} />
           </div>
@@ -43,7 +43,7 @@ export function Education() {
             </div>
           </div>
         </div>
-        <div id="edu3" style={{ alignSelf: "flex-start" }}>
+        <div id="edu3">
           <div id="mDiv1">
             <img src={gghsiMg} />
           </div>
