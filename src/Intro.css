@@ -3,9 +3,12 @@ body {
     padding: 0px;
 }
 
-#divContainer {
+#divContainer1 {
     background-color: rgb(24, 24, 50);
     width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 90px;
     height: 85vh;
 }
@@ -78,4 +81,78 @@ body {
 
 #spId {
     background-color: burlywood;
+}
+
+@media (max-width :768px) {
+    #divContainer1 {
+        height: 20vh;
+        padding-top: 70px;
+    }
+
+
+
+    #intro {
+        margin-left: 10px;
+        height: 200px;
+        width: 210px;
+    }
+
+    #picture {
+        height: 150px;
+        width: 150px;
+        margin-top: 73px;
+        background-size: cover;
+        margin-left: 5px;
+        border-radius: 250px;
+        box-shadow: 10px 10px 5px rgb(138, 67, 218);
+
+    }
+
+    #picture:hover {
+        transform: rotateX(15deg);
+    }
+
+    .name {
+        color: antiquewhite;
+        font-weight: bolder;
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    #j {
+        font-size: 10px;
+    }
+
+    #profession {
+        font-size: 11px;
+    }
+
+    #detailintro {
+        color: rgba(240, 255, 255, 0.63);
+        margin-top: 20px;
+        font-size: 9px;
+        margin-bottom: 13px;
+    }
+
+    #resume {
+        height: 20px;
+        width: 90px;
+        background-color: blueviolet;
+        margin-top: 0px;
+        font-size: 10px;
+        border-radius: 12px;
+        border: 1px solid rgb(122, 125, 158);
+        font-weight: bolder;
+
+    }
+
+    #CVlink {
+        font-size: 10px;
+        text-decoration: none;
+        color: beige;
+    }
+
+    #spId {
+        background-color: burlywood;
+    }
 }

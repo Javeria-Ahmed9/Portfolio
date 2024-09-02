@@ -6,7 +6,7 @@ import { Skills } from "./Skills";
 export function Intro() {
   return (
     <div>
-      <div id="divContainer">
+      <div id="divContainer1">
         <div id="intro">
           <div className="name">
             <h1>Hi, I am </h1>

@@ -12,28 +12,28 @@ export function Myintro() {
       <div id="navbar">
         <h2 id="nameid">&lt;Javeria/Ahmed&gt;</h2>
         <div id="two">
-          <h4>
-            <NavLink style={activeState} to={"/"}>
+          <h4 className="uocp">
+            <NavLink id="opl" style={activeState} to={"/"}>
               About
             </NavLink>
           </h4>
-          <h4>
-            <NavLink style={activeState} to={"/skills"}>
+          <h4 className="uocp">
+            <NavLink id="opl" style={activeState} to={"/skills"}>
               Skills
             </NavLink>
           </h4>
-          <h4>
-            <NavLink style={activeState} to={"/projects"}>
+          <h4 className="uocp">
+            <NavLink id="opl" style={activeState} to={"/projects"}>
               Projects
             </NavLink>
           </h4>
-          <h4>
-            <NavLink style={activeState} to={"/education"}>
+          <h4 className="uocp">
+            <NavLink id="opl" style={activeState} to={"/education"}>
               Education
             </NavLink>
           </h4>
-          <h4>
-            <NavLink style={activeState} to={"/contact"}>
+          <h4 className="uocp">
+            <NavLink id="opl" style={activeState} to={"/contact"}>
               Contact
             </NavLink>
           </h4>

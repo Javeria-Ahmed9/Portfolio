@@ -3,15 +3,15 @@ body {
   padding: 0px;
 }
 
-#mainDiv {
-  background-color: rgb(24, 24, 50);
-}
+
 
 #divContainer {
   display: flex;
   justify-content: center;
   align-content: center;
 }
+
+
 
 #navbar {
   width: 100vw;
@@ -22,23 +22,29 @@ body {
   background-color: rgb(199, 216, 211);
 }
 
+#two {
+  display: flex;
+  width: 600px;
+  padding-left: 12px;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
 #nameid {
   margin-top: 26px;
   font-size: 30px;
-  margin-left: 19px;
+  margin-left: 20px;
   color: rgb(124, 45, 199);
 }
 
 #gihubid {
-
-  margin-top: 26px;
-  margin-right: 38px;
   border: 4px solid rgb(124, 45, 199);
   border-radius: 20px;
   width: 172px;
-  height: 27px;
+  height: 35px;
+  padding-top: 7px;
   text-align: center;
-  padding-top: 2px;
+  margin: 22px 42px;
 
 }
 
@@ -47,9 +53,68 @@ body {
   text-decoration: none;
 }
 
-#two {
-  display: flex;
-  width: 600px;
-  justify-content: space-between;
-  font-size: 22px;
+
+
+@media (max-width: 768px) {
+
+
+  #navbar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  #nameid {
+    margin: 10px 0px 0px 8px;
+    font-size: 20px;
+    color: rgb(124, 45, 199);
+
+  }
+
+  #gihubid {
+    border: 2px solid rgb(124, 45, 199);
+    border-radius: 20px;
+    width: 90px;
+    height: 23px;
+    text-align: center;
+    margin: 3px 10px;
+    padding-top: 0px;
+
+  }
+
+  #git {
+    font-size: 13px;
+    color: rgb(124, 45, 199);
+    text-decoration: none;
+  }
+
+  /* #gihubid {
+
+    margin-top: 5px;
+    border: 1.5px solid rgb(124, 45, 199);
+    border-radius: 14px;
+    width: 110px;
+    height: 22px;
+
+
+  }
+
+  #git {
+    font-size: 16px;
+  } */
+
+  #two {
+    width: 350px;
+
+  }
+
+  #opl {
+    font-size: 16px;
+  }
+
+  .uocp {
+    margin: 10px 0px 10px 0px;
+
+  }
 }
