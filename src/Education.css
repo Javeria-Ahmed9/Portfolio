@@ -141,3 +141,96 @@
     margin: 20px 0px 0px 5px;
     color: rgb(106, 159, 159);
 }
+
+@media (max-width:768px) {
+    #mDiv {
+        width: 100vw;
+        height: 95vh;
+    }
+
+    #InnerDiv {
+        height: 100px;
+        font-size: 6px;
+    }
+
+    #hID {
+        font-size: 15px;
+    }
+
+    #javId {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #edu1,
+    #edu2,
+    #edu3 {
+
+        background-color: rgb(68, 60, 86);
+        height: 120.5px;
+        width: 327px;
+        box-shadow: rgba(224, 184, 96, 0.849) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+
+    }
+
+
+    #mDiv1 img {
+
+        height: 120px;
+        width: 124px;
+        margin-left: 0px;
+        border-radius: 5px;
+    }
+
+    #im {
+        background-color: blue;
+
+
+    }
+
+    #nm {
+        padding-top: 5px;
+        font-size: 15px;
+        margin-bottom: 0px;
+        color: rgb(66, 209, 245);
+    }
+
+
+
+    #gh {
+        font-size: 9px;
+        margin: 2px 0px 0px 5px;
+
+
+    }
+
+    #fg {
+        font-size: 9px;
+        margin: 4px 0px 0px 5px;
+    }
+
+    #fd {
+        font-size: 9px;
+        margin: 4px 0px 0px 5px;
+    }
+
+    #CnId {
+        width: 275px;
+        text-align: center;
+
+    }
+
+    #Introd {
+
+        height: 160px;
+        font-size: 9px;
+        width: 200px;
+        font-weight: bold;
+        margin: 6px 0px 0px 5px;
+        color: rgb(106, 159, 159);
+    }
+}

@@ -69,7 +69,7 @@ a {
 @media (max-width:768px) {
     #maindivID {
         width: 100vw;
-        height: 94vh;
+        height: 110vh;
         padding-top: 75px;
     }
 
