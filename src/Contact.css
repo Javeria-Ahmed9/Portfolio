@@ -131,11 +131,11 @@
 
 @media (max-width:768px) {
     #kDiv {
-        padding-top: 75px;
+        padding-top: 91px;
     }
 
     #InnerDiv3 {
-        height: 80px;
+        height: 70px;
         font-size: 6px;
 
     }
@@ -147,7 +147,7 @@
 
 
     #qw {
-        height: 293px;
+        height: 386px;
         width: 290px;
         margin-top: 14px;
     }
@@ -155,7 +155,7 @@
     #h1id {
 
         padding-top: 9px;
-        margin-bottom: 4px;
+        margin-bottom: 10px;
         padding-left: 20px;
         display: flex;
     }
@@ -164,7 +164,7 @@
         height: 26px;
         width: 240px;
         font-size: 10px;
-        margin-bottom: 13px;
+        margin-bottom: 31px;
     }
 
     #btnj {
@@ -183,8 +183,8 @@
     }
 
     #imgicon {
-        height: 20px;
-        width: 18px;
+        height: 30px;
+        width: 21px;
         padding-left: 7px;
         margin-bottom: 9px;
 
@@ -192,7 +192,7 @@
     }
 
     #tt {
-        height: 107px;
+        height: 160px;
         margin-top: 15px;
     }
 
@@ -203,15 +203,15 @@
     }
 
     #lk {
-        height: 20px;
+        height: 24px;
         width: 25px;
     }
 
     #wsd {
-        background-color: bisque;
         width: 250px;
         font-size: 8px;
         text-align: center;
+        margin-top: 23px;
     }
 
     #tw01 {
@@ -221,8 +221,8 @@
     }
 
     .rtyu {
-        margin-top: 0px;
+        margin-top: 10px;
 
-        margin-bottom: 10px;
+        margin-bottom: 19px;
     }
 }

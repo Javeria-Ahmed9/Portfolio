@@ -69,8 +69,8 @@ a {
 @media (max-width:768px) {
     #maindivID {
         width: 100vw;
-        height: 105vh;
-        padding-top: 87px;
+        height: 104vh;
+        padding-top: 91px;
     }
 
     #mainDiv1 {
