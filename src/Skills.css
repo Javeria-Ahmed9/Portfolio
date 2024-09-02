@@ -105,3 +105,91 @@
     background-color: rgb(16, 22, 22);
 
 }
+
+@media (max-width:768px) {
+    #main3 {
+        height: 89.5vh;
+        padding-top: 70px;
+        background-color: rgb(24, 24, 50);
+    }
+
+
+    #container {
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+    .head {
+        font-size: 16px;
+        padding-top: 8px;
+    }
+
+
+    #myid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 30px 50px 0px 50px;
+        padding-bottom: 50px;
+
+
+    }
+
+    #mainContent {
+        display: flex;
+        width: 90px;
+        height: 39px;
+        margin-bottom: 45px;
+    }
+
+    #content {
+
+        height: 20px;
+        width: 105px;
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    #pic {
+        height: 25px;
+        width: 45px;
+        background-size: cover;
+        border-radius: 16px;
+        margin-top: 7px;
+    }
+
+
+    #sid7 {
+        font-size: 22px;
+        margin-top: 15px;
+
+    }
+
+    #heading {
+        height: 90px;
+        font-size: 7px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #skills {
+        box-shadow: rgba(227, 79, 79, 0.831) 0px 5px 15px;
+        background-color: rgb(16, 22, 22);
+        height: 320px;
+        width: 320px;
+        margin: 30px 0px 30px 0px;
+        border-radius: 50px;
+
+    }
+
+
+    #other0 {
+        box-shadow: rgba(227, 79, 79, 0.831) 0px 5px 15px;
+        border-radius: 50px;
+        height: 320px;
+        width: 320px;
+        margin: 30px 0px 30px 20px;
+        background-color: rgb(16, 22, 22);
+
+    }
+}

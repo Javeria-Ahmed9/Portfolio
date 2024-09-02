@@ -89,7 +89,7 @@ export function Skills() {
               ></div>
               <h4 id="content">Versel</h4>
             </div>
-            <div id="mainContent" style={{ marginLeft: "90px" }}>
+            <div id="mainContent" style={{ marginLeft: "67px" }}>
               <div id="pic" style={{ backgroundImage: `url(${DOMimg})` }}></div>
               <h4 id="content">DOM</h4>
             </div>
