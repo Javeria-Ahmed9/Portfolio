@@ -160,15 +160,19 @@
         margin-top: 7px;
     }
 
+    #tyu {
+        padding-left: 16px;
+    }
+
 
     #sid7 {
-        font-size: 22px;
+        font-size: 15px;
         margin-top: 15px;
 
     }
 
     #heading {
-        height: 90px;
+        height: 80px;
         font-size: 6px;
         flex-direction: column;
         align-items: center;
