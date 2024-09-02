@@ -145,7 +145,7 @@
 @media (max-width:768px) {
     #mDiv {
         width: 100vw;
-        height: 87vh;
+        height: 91vh;
         padding-top: 87px;
     }
 
@@ -167,9 +167,7 @@
         height: 120.5px;
         width: 327px;
         box-shadow: rgba(224, 184, 96, 0.849) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-        margin-top: 20px;
-
-
+        margin-top: 30px;
     }
 
 

@@ -16,10 +16,10 @@ export function Contact() {
       </div>
       <div id="yui">
         <div id="qw">
-          <h1 id="h1id">
-            Email Me
+          <div id="h1id">
+            <h5 id="yuoi">Email Me</h5>
             <img src={boostImg} id="imgicon"></img>
-          </h1>
+          </div>
           <div id="div7">
             <input className="urDiv" type="text" placeholder="Your Email" />
             <input className="urDiv" type="text" placeholder="Your Name" />
@@ -38,22 +38,22 @@ export function Contact() {
         <div id="tt">
           <h1 id="pol">Javeria Ahmed</h1>
           <div id="tw01">
-            <h4>
+            <h4 className="rtyu">
               <NavLink style={activeState} to={"/"}>
                 About
               </NavLink>
             </h4>
-            <h4>
+            <h4 className="rtyu">
               <NavLink style={activeState} to={"/skills"}>
                 Skills
               </NavLink>
             </h4>
-            <h4>
+            <h4 className="rtyu">
               <NavLink style={activeState} to={"/projects"}>
                 Projects
               </NavLink>
             </h4>
-            <h4>
+            <h4 className="rtyu">
               <NavLink style={activeState} to={"/education"}>
                 Education
               </NavLink>

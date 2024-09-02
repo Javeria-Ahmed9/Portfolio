@@ -108,7 +108,7 @@
 
 @media (max-width:768px) {
     #main3 {
-        height: 108vh;
+        height: 117vh;
         padding-top: 87px;
         background-color: rgb(24, 24, 50);
     }
@@ -161,7 +161,8 @@
     }
 
     #tyu {
-        padding-left: 14px;
+        width: 270px;
+        text-align: center;
     }
 
 
