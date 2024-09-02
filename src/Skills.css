@@ -108,7 +108,7 @@
 
 @media (max-width:768px) {
     #main3 {
-        height: 89.5vh;
+        height: 100vh;
         padding-top: 70px;
         background-color: rgb(24, 24, 50);
     }
@@ -127,9 +127,10 @@
 
     #myid {
         display: flex;
+        width: 220px;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 30px 50px 0px 50px;
+        margin: 30px 50px 0px 45px;
         padding-bottom: 50px;
 
 
@@ -137,7 +138,7 @@
 
     #mainContent {
         display: flex;
-        width: 90px;
+        width: 100px;
         height: 39px;
         margin-bottom: 45px;
 
@@ -147,7 +148,7 @@
 
         height: 20px;
         width: 105px;
-        margin-top: 12px;
+        margin-top: 10px;
         font-size: 16px;
     }
 
@@ -168,28 +169,26 @@
 
     #heading {
         height: 90px;
-        font-size: 7px;
+        font-size: 6px;
         flex-direction: column;
         align-items: center;
     }
 
     #skills {
         box-shadow: rgba(227, 79, 79, 0.831) 0px 5px 15px;
+        border-radius: 50px;
         background-color: rgb(16, 22, 22);
         height: 320px;
-        width: 320px;
+        width: 310px;
         margin: 30px 0px 30px 0px;
-        border-radius: 50px;
-
     }
-
 
     #other0 {
         box-shadow: rgba(227, 79, 79, 0.831) 0px 5px 15px;
         border-radius: 50px;
         height: 320px;
-        width: 320px;
-        margin: 30px 0px 30px 20px;
+        width: 310px;
+        margin: 17px 0px 30px 0px;
         background-color: rgb(16, 22, 22);
 
     }
