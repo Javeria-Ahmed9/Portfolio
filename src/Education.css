@@ -54,34 +54,34 @@
 
 }
 
-/* #edu1,
+#edu1,
 #edu3 {
-    animation: myanim1 10s ease-in 0s 0 normal;
+    animation: myanim1 5s ease-in 0s infinite normal;
 }
 
 #edu2 {
-    animation: myanim 10s ease-out 0s 0 reverse;
+    animation: myanim 5s ease-out 0s infinite normal;
 }
 
 @keyframes myanim {
     from {
-        translate: -610px;
+        transform: rotateY(25deg);
     }
 
     to {
-        translate: 0px;
+        transform: rotateY(0deg);
     }
 }
 
 @keyframes myanim1 {
     from {
-        translate: 0px;
+        transform: rotateY(0deg);
     }
 
     to {
-        translate: 610px;
+        transform: rotateY(25deg);
     }
-} */
+}
 
 #mDiv1 img {
 
@@ -145,8 +145,8 @@
 @media (max-width:768px) {
     #mDiv {
         width: 100vw;
-        height: 88.5vh;
-        padding-top: 87px;
+        height: 90.5vh;
+        padding-top: 91px;
     }
 
     #InnerDiv {
@@ -165,7 +165,7 @@
 
         background-color: rgb(68, 60, 86);
         height: 120.5px;
-        width: 327px;
+        width: 329px;
         box-shadow: rgba(224, 184, 96, 0.849) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
         margin-top: 35px;
     }

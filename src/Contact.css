@@ -26,7 +26,7 @@
 }
 
 #qw {
-    background-color: rgb(211, 112, 131);
+    background-color: rgb(222, 156, 169);
     height: 530px;
     width: 600px;
     border: 2px solid black;
@@ -34,6 +34,7 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 #yui {
@@ -131,7 +132,8 @@
 
 @media (max-width:768px) {
     #kDiv {
-        padding-top: 91px;
+        padding-top: 93px;
+        height: 85vh;
     }
 
     #InnerDiv3 {
@@ -150,6 +152,7 @@
         height: 386px;
         width: 290px;
         margin-top: 14px;
+
     }
 
     #h1id {
@@ -183,10 +186,10 @@
     }
 
     #imgicon {
-        height: 30px;
-        width: 21px;
+        height: 21px;
+        width: 17px;
         padding-left: 7px;
-        margin-bottom: 9px;
+        margin-bottom: 6px;
 
         margin-top: 1px;
     }
