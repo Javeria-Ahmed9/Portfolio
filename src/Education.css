@@ -145,23 +145,17 @@
 @media (max-width:768px) {
     #mDiv {
         width: 100vw;
-        height: 95vh;
+        height: 87vh;
+        padding-top: 87px;
     }
 
     #InnerDiv {
-        height: 100px;
+        height: 80px;
         font-size: 6px;
     }
 
     #hID {
         font-size: 15px;
-    }
-
-    #javId {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
 
@@ -173,6 +167,7 @@
         height: 120.5px;
         width: 327px;
         box-shadow: rgba(224, 184, 96, 0.849) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        margin-top: 20px;
 
 
     }
