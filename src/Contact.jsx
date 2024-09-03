@@ -1,13 +1,63 @@
+import { useEffect, useState } from "react";
 import boostImg from "./Images/booster.png";
 import { NavLink } from "react-router-dom";
 
 export function Contact() {
+  let [mail, setMail] = useState("");
+  let [name, setName] = useState("");
+  let [subject, setSubject] = useState("");
+  let [message, setMessage] = useState("");
+
+  useEffect(() => {
+    document.addEventListener("keydown", handledata);
+    function handledata(event) {
+      if (event.key == "Enter") {
+        handleClick(mail);
+      }
+    }
+    return () => document.removeEventListener("keydown", handledata);
+  });
+
   const activeState = ({ isActive }) => {
     return {
       color: isActive ? "Red" : "",
       textDecoration: isActive ? "" : "underline",
     };
   };
+
+  function mailFunction(event) {
+    setMail(event.target.value);
+  }
+  function nameFunction(event) {
+    setName(event.target.value);
+  }
+  function subjectFunction(event) {
+    setSubject(event.target.value);
+  }
+  function messageFunction(event) {
+    setMessage(event.target.value);
+  }
+  let handleClick = (mail) => {
+    if (
+      mail.trim() !== "" &&
+      name.trim() !== "" &&
+      subject.trim() !== "" &&
+      message.trim() !== "" &&
+      new RegExp(/^[^\s@]+@[^\s@]+\.[^\s@]+$/).test(mail)
+    ) {
+      console.log(
+        `email is: ${mail} ,name is ${name},subject is ${subject},message is ${message}`
+      );
+      alert("email send sucessfully");
+      setMail("");
+      setName("");
+      setSubject("");
+      setMessage("");
+    } else {
+      alert("Sending failed! Either email is incorrect or any field is empty");
+    }
+  };
+
   return (
     <div id="kDiv">
       <div id="InnerDiv3">
@@ -21,16 +71,38 @@ export function Contact() {
             <img src={boostImg} id="imgicon"></img>
           </div>
           <div id="div7">
-            <input className="urDiv" type="text" placeholder="Your Email" />
-            <input className="urDiv" type="text" placeholder="Your Name" />
-            <input className="urDiv" type="text" placeholder="Subject" />
-            <textarea
-              id="textw"
+            <input
+              value={mail}
+              id="kolp"
+              onChange={mailFunction}
+              className="urDiv"
+              placeholder="Your Email"
+            />
+            <input
+              value={name}
+              onChange={nameFunction}
               className="urDiv"
               type="text"
+              placeholder="Your Name"
+            />
+            <input
+              value={subject}
+              onChange={subjectFunction}
+              className="urDiv"
+              placeholder="Subject"
+            />
+            <textarea
+              value={message}
+              onChange={messageFunction}
+              id="textw"
+              className="urDiv"
               placeholder="Message"
             />
-            <button id="btnj" className="urDiv">
+            <button
+              id="btnj"
+              onClick={() => handleClick(mail)}
+              className="urDiv"
+            >
               Send
             </button>
           </div>
